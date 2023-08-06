@@ -62,6 +62,7 @@ const Form = () => {
       "https://falakz-socio-social-media-responsive-deploy.vercel.app/auth/register",
       {
         method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: formData,
       }
     );
