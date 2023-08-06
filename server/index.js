@@ -34,7 +34,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 
 app.use(cors(
         {
-        origin: ["https://socio-social-media-responsive-deploy.vercel.app/"],
+        origin: ["https://socio-social-media-responsive-deploy.vercel.app"],
         methods: ["POST", "GET"],
         credentials: true
     }
